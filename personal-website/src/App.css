@@ -9,17 +9,39 @@ body {
   text-align: center;
 }
 
+/* HEADER */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   background-color: #141414;
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-right: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  margin: 0 0.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #f39c12;
+}
+
+nav {
+  margin-left: auto;
 }
 
 nav ul {
@@ -42,12 +64,17 @@ nav ul li a:hover {
   color: #f39c12;
 }
 
+/* MAIN */
 .main-content {
-  padding: 5rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 10rem;
 }
 
 .intro {
   margin-bottom: 2rem;
+  margin-right: 10rem;
 }
 
 .intro-text {
@@ -61,6 +88,11 @@ nav ul li a:hover {
   font-weight: 700;
   margin: 0;
   line-height: 1.1;
+  transition: color 0.3s;
+}
+
+.intro-name:hover{
+  color: #f39c12;
 }
 
 .intro-title {
@@ -71,11 +103,12 @@ nav ul li a:hover {
 }
 
 .portfolio-btn {
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 1rem;
   font-size: 1rem;
   color: #fff;
   background-color: #f39c12;
   border: none;
+  border-radius: 25rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -84,42 +117,22 @@ nav ul li a:hover {
   background-color: #e67e22;
 }
 
-.social-icons {
+.image-container {
+  margin-left: 2rem;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* FOOTER */
+.footer {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-}
-
-.social-icons a {
-  margin: 0 0.5rem;
-  color: #fff;
-  font-size: 1.5rem;
-  transition: color 0.3s;
-}
-
-.social-icons a:hover {
-  color: #f39c12;
-}
-
-.footer {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   background-color: #141414;
   color: #fff;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.social-icon {
-  margin: 0 0.5rem;
-  color: #fff;
-  font-size: 1.5rem;
-  transition: color 0.3s;
-}
-
-.social-icon:hover {
-  color: #f39c12;
 }
