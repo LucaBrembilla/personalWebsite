@@ -69,7 +69,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5rem 10rem;
+  padding: 4% 4%;
 }
 
 .intro {
@@ -120,11 +120,13 @@ nav ul li a:hover {
 
 .image-container {
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .profile-image {
   width: 100%;
   max-width: 500px;
+  min-width: 200px;
   border: none;
   border-radius: 50px;
 }

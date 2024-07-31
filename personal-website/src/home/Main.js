@@ -9,7 +9,7 @@ const Main = () => {
                 <div className="text-container">
                     <p className="intro-text">Hello, I am</p>
                     <h1 className="intro-name">Luca Brembilla</h1>
-                    <p className="intro-title">I'm Luca, software engineer.</p>
+                    <p className="intro-title">I'm Luca, a software engineer.</p>
                     <p className="intro-title">And much more, I hope.</p>
                     <button className="portfolio-btn">My Resume</button>
                 </div>
