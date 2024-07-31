@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import './Main.css';
 import profileImage from '../images/me.jpg';
 
 const Main = () => {
@@ -11,7 +11,7 @@ const Main = () => {
                     <h1 className="intro-name">Luca Brembilla</h1>
                     <p className="intro-title">I'm Luca, a software engineer.</p>
                     <p className="intro-title">And much more, I hope.</p>
-                    <button className="portfolio-btn">My Resume</button>
+                    <button className="resume-btn">My Resume</button>
                 </div>
             </div>
             <div className="image-container">
