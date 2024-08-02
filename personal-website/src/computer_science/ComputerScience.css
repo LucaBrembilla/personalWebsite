@@ -1,0 +1,56 @@
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 4%;
+}
+
+.intro {
+    margin-bottom: 2rem;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item {
+    margin-bottom: 1.5rem;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f39c12;
+    margin-bottom: 0.5rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .projects-content {
+        padding: 1rem;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+    }
+}
