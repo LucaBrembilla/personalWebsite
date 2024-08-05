@@ -35,8 +35,8 @@ const Header = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><a href="/about">Who am I</a></li>
                     <li><a href="/computerscience">Computer Science</a></li>
-                    <li><a href="/radiomusic">Radio and Music</a></li>
-                    <li><a href="/art">Art</a></li>
+                    <li><a href="/radiomusic">Radio</a></li>
+                    <li><a href="/art">Hip Hop</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
