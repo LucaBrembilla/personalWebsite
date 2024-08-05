@@ -1,6 +1,5 @@
 import React from 'react';
 import './Main.css';
-import profileImage from '../images/me.jpg';
 import resume from '../docs/resume.pdf';
 
 const Main = () => {
@@ -23,7 +22,7 @@ const Main = () => {
                 </div>
             </div>
             <div className="image-container">
-            <img src={profileImage} alt="Luca Brembilla" className="profile-image"/>
+            <img src={"/me.jpg"} alt="Luca Brembilla" className="profile-image"/>
             </div>
         </main>
     );

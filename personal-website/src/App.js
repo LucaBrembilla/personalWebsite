@@ -5,6 +5,7 @@ import Main from './main/Main';
 import Footer from './components/Footer';
 import About from './about/About';
 import ComputerScience from './computer_science/ComputerScience';
+import ProjectDetails from "./computer_science/ProjectDetails";
 import Contact from './contact/Contact';
 import './App.css';
 
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path="/" element={<Main/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/computerscience" element={<ComputerScience/>}/>
+                <Route path="/project/:id" element={<ProjectDetails/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 {/* Define other routes here as needed */}
             </Routes>

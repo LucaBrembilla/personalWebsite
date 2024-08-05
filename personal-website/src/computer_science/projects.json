@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Plant Disease by Image Classification",
+    "description": "Binary classification of plant disease by image classification.",
+    "fullDescription": {
+      "project_overview": {
+        "objective": "Develop a neural network model to classify images of plants as either diseased or healthy. This is a binary classification problem where the model must decide between two possible categories.",
+        "approach": "Used transfer learning with ConvNeXtBase, a pre-trained convolutional neural network. Transfer learning helps improve performance and speeds up training by leveraging pre-existing knowledge from a large dataset."
+      },
+      "model_architecture": {
+        "base_model": {
+          "name": "ConvNeXtBase",
+          "description": "A convolutional neural network pre-trained on ImageNet. The first 277 layers are frozen, and the remaining layers are fine-tuned for plant disease classification."
+        },
+        "dense_layers": {
+          "description": "Additional fully connected layers that process the output from the base model.",
+          "features": [
+            "Leaky ReLU activation functions to improve learning speed.",
+            "Dropout to prevent overfitting by randomly ignoring some neurons during training.",
+            "Batch Normalization to stabilize and speed up training.",
+            "Ridge Regularization to control model complexity and prevent overfitting."
+          ]
+        }
+      },
+      "training_and_tuning": {
+        "dataset": "5,004 images split into training (80%) and validation (20%) sets.",
+        "hyperparameter_tuning": {
+          "description": "Adjusted various settings like activation functions and regularization methods to find the best-performing model.",
+          "techniques": [
+            "Data augmentation (zooming, flipping, rotating images) to improve model robustness."
+          ]
+        },
+        "evaluation_metrics": {
+          "accuracy": "87.10%",
+          "precision": "82.77%",
+          "recall": "83.42%",
+          "f1_score": "83.09%"
+        }
+      },
+      "results": {
+        "description": "The ConvNeXtBase model showed strong performance with low overfitting. It effectively classified healthy and diseased plants with high accuracy and balanced precision and recall."
+      },
+      "team_contributions": {
+        "description": "The project was a collaborative effort where each member contributed to different aspects, ensuring a smooth workflow and leveraging each person's strengths.",
+        "members": [
+          "Matteo Miano",
+          "Luca Brembilla",
+          "Linda Frickleton",
+          "Marianna Dragonetti"
+        ]
+      }
+    },
+    "image": "/PlantDisease.png"
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
+    "description": "A brief description of Project 2.",
+    "fullDescription": "Full explanation of Project 2."
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "A brief description of Project 3.",
+    "fullDescription": "Full explanation of Project 3."
+  },
+  {
+    "id": 4,
+    "title": "Project 4",
+    "description": "A brief description of Project 4.",
+    "fullDescription": "Full explanation of Project 4."
+  },
+  {
+    "id": 5,
+    "title": "Project 5",
+    "description": "A brief description of Project 5.",
+    "fullDescription": "Full explanation of Project 5."
+  }
+]
