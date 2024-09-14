@@ -15,7 +15,7 @@ const About = () => {
                 <div className="experience-item">
                     <h3>Vice President & Speaker at Poli.Radio</h3>
                     <p><strong>Dates:</strong> 04/2023 – present</p>
-                    <p>Involved in various fields including IT.</p>
+                    <p>Keen focus on budgeting, financial management and resource allocation. Involved in various fields including IT.</p>
                 </div>
                 <div className="experience-item">
                     <h3>Software Engineer Consultant at REPLY</h3>

@@ -1,0 +1,61 @@
+.book-details-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+.book-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #f39c12;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.book-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.book-details {
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.bold-text {
+    font-weight: 600;
+    color: #ddd;
+}
+
+h2, h3 {
+    color: #f39c12;
+}
+
+a, .link {
+    color: #f39c12; /* Change text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+a:hover, .link:hover {
+    color: #ff6700; /* Change color on hover */
+    text-decoration: underline; /* Optional underline on hover */
+}
+
+.citation {
+    font-size: 1.2rem;
+    color: #fff;
+    font-style: italic; /* Italic to match citation conventions */
+    background-color: #141414;  /* Light background color */
+    padding: 0.3rem 0.6rem;  /* Padding for spacing around text */
+    border-radius: 5px;      /* Rounded corners for a cleaner look */
+    display: inline-block;   /* Ensure padding works properly with inline elements */
+    margin: 0.5rem;     /* Optional: Add space before the citation */
+}
