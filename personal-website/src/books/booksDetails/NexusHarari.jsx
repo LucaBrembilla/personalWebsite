@@ -63,6 +63,27 @@ const NexusHarari = () => (
             <h3>
                 Chapter II - Stories: Unlimited Connections
             </h3>
+            <p>
+                Sapiens rule the world because we cooperate flexibly in large numbers. This can be achieved
+                thanks to <span className="bold-text">stories</span>. They create <span
+                className="italic-text">intersubjective reality</span>. For instance, states and currencies.
+            </p>
+            <p>
+                The <span className="italic-text"> naive view of information</span> is that information is seen as directly leading to truth,
+                which then branches into wisdom and power. This suggests a linear, almost idealistic progression:
+                gaining information leads to uncovering truth, which then naturally confers both wisdom and power.
+                A more complete historical view of information says that <span className="bold-text">
+                information still leads to truth but also gives rise to order, implying that information
+                helps establish systems or structures</span>. From this foundation, both truth and order then
+                branch out, with truth leading to wisdom and power, and order similarly feeding into the
+                development of power. This second view emphasizes the role of order in shaping power, reflecting
+                historical realities where control over information and systems has often been key to wielding
+                power.
+            </p>
+            <h3>Chapter III - Documents: The Bite of the Paper Tigers</h3>
+            <p>
+
+            </p>
         </div>
     </main>
 );
