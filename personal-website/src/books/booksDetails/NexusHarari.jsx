@@ -82,6 +82,25 @@ const NexusHarari = () => (
             </p>
             <h3>Chapter III - Documents: The Bite of the Paper Tigers</h3>
             <p>
+                Lists are necessary to brings story into reality. However, Sapens can easily remember stories,
+                but not lists. As Kendall Haven states in his "<span className="italic-text">Story Proof:
+                The Science Behind the Startling Power of Story</span>:
+                <span className="citation">research overwhelmingly, convincingly, and without opposition
+                provides the evidence [that stories are a highly efficient] vehicle for communicating
+                factual, conceptual, emotional, and tacit information.</span>
+                Written documents were then used to store information in form of lists. As stories,
+                written documents can be false, but their power is in creating intersubjective reality.
+                Every new information technology has bottlenecks. It solves some problems but creates new
+                ones. Written documents create the problem of document retrieval. Bureaucracy is the answer
+                to the retrieval problem. What is bureaucracy? Its main principle is divide and conquer,
+                so it sacrifice truth for order.
+                <span className="citation">Reducing the messiness of reality to a limited number of fixed
+                drawers helps bureaucrats keep order, but it comes at the expense of truth.</span>
+                Bureaucracy strengthen the power of central authority and increase the gap between rulers
+                and ruled, even when benign.
+            </p>
+            <h3>Chapter IV - Errors: The Fantasy of Infallibility</h3>
+            <p>
 
             </p>
         </div>
