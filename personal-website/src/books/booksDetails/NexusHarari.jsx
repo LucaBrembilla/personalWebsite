@@ -101,7 +101,9 @@ const NexusHarari = () => (
             </p>
             <h3>Chapter IV - Errors: The Fantasy of Infallibility</h3>
             <p>
-
+                If humans are prone to error, how can we trust self-correcting mechanisms? Religion often removed humans
+                from the equation, portraying God as infallible. Yet, this ultimately led to relying on the judgment of
+                certain individuals. In this sense, books are technologies to bypass human fallibility.
             </p>
         </div>
     </main>
