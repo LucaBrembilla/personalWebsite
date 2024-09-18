@@ -6,7 +6,6 @@ const About = () => {
         <div className="about-container">
             <header className="about-header">
                 <h1>Luca Brembilla</h1>
-                <p><a href="tel:+393314657738">+39-3314657738</a> | <a href="mailto:lucabremby00@gmail.com">lucabremby00@gmail.com</a></p>
                 <p><a href="https://github.com/LucaBrembilla" target="_blank" rel="noopener noreferrer">GitHub: LucaBrembilla</a></p>
             </header>
 

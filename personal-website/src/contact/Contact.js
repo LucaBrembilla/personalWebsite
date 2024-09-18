@@ -42,7 +42,6 @@ const Contact = () => {
             <section className="contact-info">
                 <h2>Contact Information</h2>
                 <p><strong>Email:</strong> <a href="mailto:lucabremby00@gmail.com">lucabremby00@gmail.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+393314657738">+39-3314657738</a></p>
                 <p><strong>GitHub:</strong> <a href="https://github.com/LucaBrembilla" target="_blank" rel="noopener noreferrer">LucaBrembilla</a></p>
             </section>
 
