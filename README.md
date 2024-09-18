@@ -13,9 +13,9 @@ Welcome to the repository for my personal website! This website serves as a plat
 
 ## 📸 Screenshots
 
-| Home Page                                      | Project Section                                    |
-|------------------------------------------------|---------------------------------------------------|
-| ![Home Page](path-to-screenshot1)              | ![Project Section](path-to-screenshot2)           |
+| Home Page                                      |
+|------------------------------------------------|
+| ![Home Page](assets/homepage.jpg)              |
 
 ## 🛠️ Tech Stack
 
@@ -75,7 +75,7 @@ This project is deployed using Firebase Hosting. To deploy it yourself, follow t
    ```
 
 ## 📦 Project Structure
-
+```
 personal-website/
 ├── public/            # Static assets
 ├── src/
@@ -86,7 +86,8 @@ personal-website/
 ├── .gitignore
 ├── firebase.json      # Firebase deployment config
 ├── package.json
-└── README.md          # Project readme
+└── README.md          # Website readme
+```
 
 ## 📄 License
 
