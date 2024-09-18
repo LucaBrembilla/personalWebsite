@@ -15,7 +15,7 @@ Welcome to the repository for my [personal website](https://lucabrembilla.dev)! 
 
 | Home Page                                      |
 |------------------------------------------------|
-| ![Home Page](assets/homepage.jpg)              |
+| <img src="assets/screenshot1.png" width="200"> |
 
 ## 🛠️ Tech Stack
 
