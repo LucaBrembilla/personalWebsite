@@ -2,7 +2,7 @@
 
 ## 🌐 Overview
 
-Welcome to the repository for my personal website! This website serves as a platform where I share insights about my projects, personal interests, and everyday life. It's built using **React** for the frontend, hosted on **Firebase**, and DNS management is handled through **Cloudflare** to ensure speed and security.
+Welcome to the repository for my [personal website](https://lucabrembilla.dev)! This website serves as a platform where I share insights about my projects, personal interests, and everyday life. It's built using **React** for the frontend, hosted on **Firebase**, and DNS management is handled through **Cloudflare** to ensure speed and security.
 
 ## 🚀 Features
 
